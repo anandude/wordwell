@@ -1,0 +1,55 @@
+body{
+    background-color: #F7EFE5;
+}
+
+/* --------------------------------------------------------
+-------------------HOME PAGE-------------------------------
+-------------------------------------------------------- */
+
+
+.navbar{
+    background-color: rgb(222, 22, 22);
+}
+
+.navbar-brand{
+    font-family:"Cedarville Cursive",sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(49, 49, 49);
+    margin: 0;
+    padding: 0;
+}
+
+.card-container{
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 5px;
+    width: 200px; /* Adjust according to your design */
+    height: 300px;
+}
+
+
+.card{
+    width: 300px; /* Adjust according to your design */
+    height: 230px;
+    background-color: #ffffff;
+}
+
+.card-body{
+    overflow: hidden;
+}
+
+.card h5{
+    font-family:"Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(54, 54, 54);
+}
+
+.card p{
+    font-family: "Helvetica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top:5px;
+}
